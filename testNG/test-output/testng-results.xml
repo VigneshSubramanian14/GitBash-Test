@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite_1" duration-ms="86" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+    <groups>
+    </groups>
+    <test name="Test_1" duration-ms="86" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+      <class name="testNG_Learning.ToSetPriority">
+        <test-method status="PASS" signature="apple()[pri:0, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="apple" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="apple2()[pri:0, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="apple2" duration-ms="1" started-at="2020-09-13T11:12:57 IST" depends-on-methods="testNG_Learning.ToSetPriority.apple" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple2 -->
+        <test-method status="PASS" signature="moto2()[pri:0, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="moto2" duration-ms="0" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto2 -->
+        <test-method status="PASS" signature="vivo1()[pri:0, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="vivo1" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo1 -->
+        <test-method status="PASS" signature="vivo2()[pri:0, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="vivo2" duration-ms="1" started-at="2020-09-13T11:12:57 IST" depends-on-methods="testNG_Learning.ToSetPriority.vivo1" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo2 -->
+        <test-method status="PASS" signature="moto1()[pri:1, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="moto1" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto1 -->
+        <test-method status="PASS" signature="Oppo()[pri:2, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="Oppo" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oppo -->
+        <test-method status="PASS" signature="Oppo1()[pri:0, instance:testNG_Learning.ToSetPriority@1bfb90a]" name="Oppo1" duration-ms="1" started-at="2020-09-13T11:12:57 IST" depends-on-methods="testNG_Learning.ToSetPriority.Oppo" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oppo1 -->
+      </class> <!-- testNG_Learning.ToSetPriority -->
+      <class name="testNG_Learning.ToSkipTestCases">
+        <test-method status="PASS" signature="moto2()[pri:-11, instance:testNG_Learning.ToSkipTestCases@94e528]" name="moto2" duration-ms="7" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto2 -->
+        <test-method status="PASS" signature="moto1()[pri:-10, instance:testNG_Learning.ToSkipTestCases@94e528]" name="moto1" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moto1 -->
+        <test-method status="PASS" signature="vivo2()[pri:-9, instance:testNG_Learning.ToSkipTestCases@94e528]" name="vivo2" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo2 -->
+        <test-method status="PASS" signature="vivo1()[pri:-7, instance:testNG_Learning.ToSkipTestCases@94e528]" name="vivo1" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo1 -->
+        <test-method status="PASS" signature="apple2()[pri:-3, instance:testNG_Learning.ToSkipTestCases@94e528]" name="apple2" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple2 -->
+        <test-method status="PASS" signature="Oppo()[pri:0, instance:testNG_Learning.ToSkipTestCases@94e528]" name="Oppo" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oppo -->
+        <test-method status="PASS" signature="apple()[pri:0, instance:testNG_Learning.ToSkipTestCases@94e528]" name="apple" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="Oppo1()[pri:1, instance:testNG_Learning.ToSkipTestCases@94e528]" name="Oppo1" duration-ms="1" started-at="2020-09-13T11:12:57 IST" finished-at="2020-09-13T11:12:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oppo1 -->
+      </class> <!-- testNG_Learning.ToSkipTestCases -->
+    </test> <!-- Test_1 -->
+  </suite> <!-- Suite_1 -->
+</testng-results>
